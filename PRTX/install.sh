@@ -9,8 +9,8 @@ COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/Printex-official/printex-core/releases/download/v1.0.0.0/lin-daemon.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Printex'
-COIN_PORT=9107
-RPC_PORT=9108
+COIN_PORT=9797
+RPC_PORT=9898
 
 NODEIP=$(curl -s4 api.ipify.org)
 
