@@ -192,7 +192,7 @@ fi
 
 function prepare_system() {
 echo -e "Prepare the system to install ${GREEN}$COIN_NAME${NC} master node."
-apt-get update
+apt-get update >/dev/null 2>&1
 DEBIAN_FRONTEND=noninteractive apt-get update > /dev/null 2>&1
 DEBIAN_FRONTEND=noninteractive apt-get -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" -y -qq upgrade >/dev/null 2>&1
 apt install -y software-properties-common >/dev/null 2>&1
@@ -233,6 +233,8 @@ function important_information() {
   echo -e "${RED}Sentinel${NC} is installed in ${RED}$CONFIGFOLDER/sentinel${NC}"
   echo -e "Sentinel logs is: ${RED}$CONFIGFOLDER/sentinel.log${NC}"
  fi
+ echo -e "Thanks for https://github.com/zoldur/Printex and Boumba#3326 on Discord for Base."
+ echo -e "Thanks for donations on PRTX: pCRNk4f3LK584LNrUudW5Rqb4Vkv4NiJqR"
  echo -e "================================================================================================================================"
 }
 
