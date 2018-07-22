@@ -1,6 +1,8 @@
 # Masternode-Installscript for Printex MN
 Crypto Masternode Install- and Update Script for Printex
 
+Create VPS for 5 USD/Month at https://www.vultr.com/?ref=7472679 (UBUNTU 16.04, x64, 1CPU, 1024MB) 
+
 Install type:
 
     wget https://raw.githubusercontent.com/tognellacom/masternode-scripts/master/PRTX/install.sh
@@ -23,6 +25,7 @@ in the masternode.conf file add a line with the following format:
     Example: MN1 127.0.0.2:9797 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 
 Restart Wallet
+
 Start Masternode in Masternode Tab
 
 Donations are welcome to PRTX: pCRNk4f3LK584LNrUudW5Rqb4Vkv4NiJqR
