@@ -26,7 +26,9 @@ function download_node() {
   wget -q $COIN_TGZ
   compile_error
   chmod +x $COIN_ZIP
-  cp $COIN_ZIP $COIN_PATH
+  sudo apt-get install unzip
+  unzip lin-daemon.zip
+  mkdir .printex && mv printex-cli $COIN_PATH && mv printexd $COIN_PATH && cd .printex
   cd - >/dev/null 2>&1
   rm -rf $TMP_FOLDER >/dev/null 2>&1
   clear
