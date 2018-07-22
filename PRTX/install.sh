@@ -4,7 +4,7 @@ TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='Printex.conf'
 CONFIGFOLDER='/root/.Printex'
 COIN_DAEMON='printexd'
-COIN_CLI='printexd'
+COIN_CLI='printex-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/Printex-official/printex-core/releases/download/v1.0.0.0/lin-daemon.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
@@ -26,9 +26,8 @@ function download_node() {
   wget -q $COIN_TGZ
   compile_error
   chmod +x $COIN_ZIP
-  sudo apt-get install unzip
   unzip lin-daemon.zip
-  mkdir .printex && mv printex-cli $COIN_PATH && mv printexd $COIN_PATH && cd .printex
+  mv printex-cli $COIN_PATH && mv printexd $COIN_PATH
   cd - >/dev/null 2>&1
   rm -rf $TMP_FOLDER >/dev/null 2>&1
   clear
@@ -193,7 +192,7 @@ fi
 
 function prepare_system() {
 echo -e "Prepare the system to install ${GREEN}$COIN_NAME${NC} master node."
-apt-get update >/dev/null 2>&1
+apt-get update
 DEBIAN_FRONTEND=noninteractive apt-get update > /dev/null 2>&1
 DEBIAN_FRONTEND=noninteractive apt-get -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" -y -qq upgrade >/dev/null 2>&1
 apt install -y software-properties-common >/dev/null 2>&1
