@@ -1,8 +1,8 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='Printex.conf'
-CONFIGFOLDER='/root/.Printex'
+CONFIG_FILE='printex.conf'
+CONFIGFOLDER='/root/.printex'
 COIN_DAEMON='printexd'
 COIN_CLI='printex-cli'
 COIN_PATH='/usr/local/bin/'
