@@ -1,4 +1,5 @@
 # Masternode-Installscript for Printex MN
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=52GDK7EG3Q2BC)
 Crypto Masternode Install- and Update Script for Printex
 
 Create VPS for 5 USD/Month at https://www.vultr.com/?ref=7472679 (UBUNTU 16.04, x64, 1CPU, 1024MB) 
