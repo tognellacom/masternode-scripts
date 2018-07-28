@@ -128,24 +128,7 @@ addnode=118.184.105.17
 addnode=188.213.31.22
 addnode=45.76.230.226
 addnode=173.170.21.37
-addnode=207.148.92.197
-addnode=71.227.157.122
-addnode=95.179.152.168
-addnode=80.211.176.137
-addnode=207.246.67.168
-addnode=77.66.176.134
-addnode=71.203.213.243
-addnode=24.146.179.128
-addnode=149.28.134.70
-addnode=140.82.38.58
-addnode=139.99.8.48
-addnode=107.213.209.66
-addnode=199.247.1.4
-addnode=178.192.170.54
-addnode=80.240.17.27
-addnode=87.180.119.152
-addnode=173.199.114.171
-addnode=144.202.113.186
+addnode=seed.boumba.linkpc.net
 EOF
 }
 
