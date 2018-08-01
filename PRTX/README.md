@@ -30,4 +30,9 @@ Restart Wallet
 
 Start Masternode in Masternode Tab
 
+If you get an error saying invalid ip, open tools / debug console and type startmasternode alias 0 MN1
+
+### ** IF YOU ARE USING UBUNTU DESKTOP, THERE IS AN EXTRA STEP TO BE DONE FOR THE CLI TO WORK **
+cp /root/.printex/printex.conf /home/your_username/.printex/printex.conf
+
 Donations are welcome to PRTX: pCRNk4f3LK584LNrUudW5Rqb4Vkv4NiJqR
