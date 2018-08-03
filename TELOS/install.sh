@@ -28,6 +28,7 @@ function download_node() {
   compile_error
   chmod +x $COIN_ZIP
   unzip Linux.zip
+  chmod +x Linux/bin/*
   mv Linux/bin/transcendence-cli $COIN_PATH && mv Linux/bin/transcendenced $COIN_PATH
   cd - >/dev/null 2>&1
   rm -rf $TMP_FOLDER >/dev/null 2>&1
