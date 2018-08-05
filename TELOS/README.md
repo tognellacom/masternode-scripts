@@ -36,4 +36,4 @@ If you get an error saying invalid ip, open tools / debug console and type start
 ### ** IF YOU ARE USING UBUNTU DESKTOP, THERE IS AN EXTRA STEP TO BE DONE FOR THE CLI TO WORK **
 cp /root/.transcendence/transcendence.conf /home/your_username/.transcendence/transcendence.conf
 
-Donations are welcome to TELOS: GXwkryhono5oL6N6fABZ3kHwadd8EAtpcz
+Donations are welcome to TELOS: Gg2iWzvJnfJqqtzwmwtZa5yYjS8sxZobR6
