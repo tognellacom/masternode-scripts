@@ -20,4 +20,4 @@ Crypto Masternode Install- and Update Scripts
 
 PRTX: pCRNk4f3LK584LNrUudW5Rqb4Vkv4NiJqR
 
-TELOS: GXwkryhono5oL6N6fABZ3kHwadd8EAtpcz
+TELOS: Gg2iWzvJnfJqqtzwmwtZa5yYjS8sxZobR6
