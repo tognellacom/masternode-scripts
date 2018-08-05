@@ -242,7 +242,7 @@ function important_information() {
   echo -e "Sentinel logs is: ${RED}$CONFIGFOLDER/sentinel.log${NC}"
  fi
  echo -e "Base is the https://github.com/phoenixkonsole/transcendence."
- echo -e "Thanks for donations on TELOS: GXwkryhono5oL6N6fABZ3kHwadd8EAtpcz"
+ echo -e "Thanks for donations on TELOS: Gg2iWzvJnfJqqtzwmwtZa5yYjS8sxZobR6"
  echo -e "================================================================================================================================"
 }
 
