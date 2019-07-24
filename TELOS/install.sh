@@ -6,12 +6,12 @@ CONFIGFOLDER='/root/.transcendence'
 COIN_DAEMON='transcendenced'
 COIN_CLI='transcendence-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/phoenixkonsole/transcendence/releases/download/v1.1.0.0/Linux.zip'
+COIN_TGZ='https://github.com/phoenixkonsole/transcendence/releases/download/v2.0.0.0/Linux.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Transcendence'
 COIN_PID='transcendence.pid'
-COIN_PORT=22123
-RPC_PORT=22124
+COIN_PORT=8051
+RPC_PORT=8052
 
 NODEIP=$(curl -s4 api.ipify.org)
 
@@ -91,38 +91,7 @@ listen=1
 server=1
 daemon=1
 port=$COIN_PORT
-addnode=77.55.218.2:22123 
-addnode=77.55.223.145:22123 
-addnode=77.55.222.249:22123 
-addnode=77.55.223.0:22123 
-addnode=77.55.220.190:22123 
-addnode=140.82.11.40:22123
-addnode=45.76.164.107:22123
-addnode=207.246.81.122:22123
-addnode=207.246.91.56:22123
-addnode=149.28.49.149:22123
-addnode=207.246.127.138:22123
-addnode=149.28.238.162:22123
-addnode=140.82.9.215:22123
-addnode=149.28.237.24:22123
-addnode=45.76.5.5:22123
-addnode=149.28.62.231:22123
-addnode=208.167.233.110:22123
-addnode=8.12.17.218:22123
-addnode=8.9.6.136:22123
-addnode=149.28.224.44:22123
-addnode=63.209.35.66:22123
-addnode=77.55.220.107:22123 
-addnode=77.55.221.178:22123 
-addnode=77.55.221.6:22123 
-addnode=77.55.221.140:22123 
-addnode=77.55.220.88:22123 
-addnode=77.55.220.39:22123
-addnode=80.211.160.215:22123
-addnode=80.211.9.53:22123 
-addnode=80.211.36.230:22123
-addnode=80.211.12.243:22123
-addnode=80.211.14.93:22123
+
 EOF
 }
 
